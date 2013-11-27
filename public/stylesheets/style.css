@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 24px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: gray;
+	text-decoration: none;}
+a:hover {
+	color: #0A64A4;
+	text-decoration: none;}
+
+body {
+	margin: auto;
+}
+
+.name {
+	text-align: center;
+	font-size: 50px;
+}
