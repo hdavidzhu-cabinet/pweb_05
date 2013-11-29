@@ -1,10 +1,15 @@
+* {
+}
+
 body {
-  padding: 50px;
-  font: 24px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
+	text-align: center;
+	width: 100%;
+	border: 0.5px solid black;
+	font: 24px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-	color: gray;
+	color: #7F7F7F;
 	text-decoration: none;}
 a:hover {
 	color: #0A64A4;
@@ -12,9 +17,22 @@ a:hover {
 
 body {
 	margin: auto;
+	background-image: url(/images/dust.png);
 }
 
 .name {
-	text-align: center;
+	width: 100%;
 	font-size: 50px;
+	color: white;
+	position: absolute;
+	background-color: #0A0A0A;
+	top: 0px;
+	z-index: 500;
+}
+
+.test {
+	margin-top: 70px;
+	font-size: 20px;
+	font-style: italic;
+	border-bottom: 1px dotted gray;
 }
