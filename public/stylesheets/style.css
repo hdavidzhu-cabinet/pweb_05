@@ -3,14 +3,21 @@
 
 body {
 	text-align: center;
-	width: 100%;
-	border: 0.5px solid black;
-	font: 24px 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 100% 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+}
+
+.body {
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	/*clear: both;*/
 }
 
 a {
 	color: #7F7F7F;
 	text-decoration: none;}
+
 a:hover {
 	color: #0A64A4;
 	text-decoration: none;}
@@ -20,19 +27,59 @@ body {
 	background-image: url(/images/dust.png);
 }
 
-.name {
+.top_slit {
 	width: 100%;
-	font-size: 50px;
+	position: fixed;
+	height: 20px;
+	left: 0;
+	top: 0;
+	z-index: 499;
+	background-image: url(/images/dust.png);
+}
+
+.mainheader {
+	width: 100%;
+	font-size: 400%;
 	color: white;
-	position: absolute;
-	background-color: #0A0A0A;
-	top: 0px;
+	position: fixed;
+	background-image: url(/images/noisy_net.png);
+	top: 2%;
+	left: 0;
 	z-index: 500;
 }
 
-.test {
-	margin-top: 70px;
-	font-size: 20px;
+.mainheader nav {
+	height: 40px;
+	font-size: 35%;
+}
+
+.mainheader nav ul {
+	list-style: none;
+	margin: 0 auto;
+	display: table;
+	
+}
+.mainheader nav ul li {
+	
+	float: left;
+	display: table-cell;
+	height: 30px;
+	margin-top: 5px;
+	padding-right: 50px;
+}
+
+.mainheader a:hover {
+	color: #3A80FF;
+}
+
+.about {
+	margin-top: 150px;
 	font-style: italic;
+	border-bottom: 1px dotted gray;
+}
+
+.main_content {
+	margin-top: 10px;
+	padding-bottom: 10px;
 	border-bottom: 1px dotted gray;
 }

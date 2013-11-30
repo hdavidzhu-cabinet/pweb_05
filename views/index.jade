@@ -1,10 +1,26 @@
 extends layout
 
 block content
-	div.name H. DAVID ZHU [
-			a(href="https://dl.dropbox.com/s/zefkble1cdspjws/Zhu%20David%20Resume.pdf", target="_blank") RESUME
-			| ]
-	div.test
+	div.top_slit
+	header.mainheader H. DAVID ZHU
+			nav
+				ul
+					li
+						a( href="https://dl.dropbox.com/s/zefkble1cdspjws/Zhu%20David%20Resume.pdf", target="_blank") [resume]
+					li
+						a( href="https://www.linkedin.com/pub/david-zhu/64/5ab/a12/", target="_blank") [linkedin]
+					li
+						a( href="#") [contact]
+	div.about
 		p(style='white-space:pre;')
-			| student at olin college of engineering - class of 2016
+			| olin college of engineering: 2016
 			| engineeering in computing and user design
+	div.main_content
+		div.content
+			article
+				header
+				content Hello world!
+				footer.post_info This line is for testing purposes.
+				content Here are some content for testing. Let's see how well it works.
+	footer
+		p copyright &copy; David Zhu 2013
