@@ -1,6 +1,3 @@
-* {
-}
-
 body {
 	text-align: center;
 	font: 100% 'Lato', "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -9,9 +6,8 @@ body {
 
 .body {
 	margin: 0 auto;
-	width: 50%;
 	height: auto;
-	/*clear: both;*/
+	width: 100%;
 }
 
 a {
@@ -30,42 +26,56 @@ body {
 .top_slit {
 	width: 100%;
 	position: fixed;
-	height: 20px;
+	height: 5%;
 	left: 0;
 	top: 0;
 	z-index: 499;
 	background-image: url(/images/dust.png);
 }
 
+.fix_position {
+	position: fixed;
+}
+
 .mainheader {
 	width: 100%;
 	font-size: 400%;
 	color: white;
-	position: fixed;
 	background-image: url(/images/noisy_net.png);
 	top: 2%;
 	left: 0;
 	z-index: 500;
 }
 
+.clone {
+	display: inline-block !important;
+}
+
 .mainheader nav {
-	height: 40px;
-	font-size: 35%;
+	font-size: 25%;
+	margin-bottom: 0.5%;
 }
 
 .mainheader nav ul {
 	list-style: none;
+	padding: 0;
 	margin: 0 auto;
 	display: table;
-	
 }
 .mainheader nav ul li {
-	
 	float: left;
+	position: relative;
+	white-space:nowrap;
+	text-align: center;
 	display: table-cell;
-	height: 30px;
-	margin-top: 5px;
-	padding-right: 50px;
+	margin-top: 2%;
+	vertical-align:middle;
+	margin: auto;
+	padding: 0 1.5em;
+}
+
+.mainheader a {
+	color: #EAEAEA;
 }
 
 .mainheader a:hover {
@@ -73,13 +83,14 @@ body {
 }
 
 .about {
-	margin-top: 150px;
-	font-style: italic;
-	border-bottom: 1px dotted gray;
+	display: inline-block !important;
+	width: 50%;
+	margin: auto;
+	margin-top: 2%;
 }
 
 .main_content {
-	margin-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted gray;
+	padding: 2% 0;
+	margin: auto;
+	width: 50%;
 }
