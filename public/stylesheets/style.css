@@ -45,6 +45,7 @@ body {
 	top: 2%;
 	left: 0;
 	z-index: 500;
+	box-shadow: 0px 10px 5px #888888;
 }
 
 .clone {
@@ -93,4 +94,19 @@ body {
 	padding: 2% 0;
 	margin: auto;
 	width: 50%;
+}
+
+.content {
+	width: 80%;
+	min-width: 150px;
+	background-image: url(/images/fabric_1.png);
+	padding: 10%;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow:inset 1px 1px 10px 1px #888888;
+	margin-bottom: 2%;
+}
+
+#something {
+	background-image: url(http://placekitten.com/200/300);
 }
