@@ -23,6 +23,11 @@ body {
 	background-image: url(/images/dust.png);
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .top_slit {
 	width: 100%;
 	position: fixed;
@@ -96,7 +101,7 @@ body {
 	width: 50%;
 }
 
-.content {
+.main_content > div {
 	width: 80%;
 	min-width: 150px;
 	background-image: url(/images/fabric_1.png);
@@ -105,8 +110,80 @@ body {
 	border-radius: 10px;
 	box-shadow:inset 1px 1px 10px 1px #888888;
 	margin-bottom: 2%;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #something {
-	background-image: url(http://placekitten.com/200/300);
+	background-image: url(http://placekitten.com/800/300);
+	/*width: 400px;*/
+	height: 500px;
+
+}
+
+/*#something:hover {
+	background-color: black;
+	opacity: 1;
+}*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
 }
